@@ -17,7 +17,9 @@ body {
 #sidebar.open {
     left: 0;
 }
-
+a {
+    color: #a2715a;
+}
 /* #content {
     margin-left: 300px;
     margin-top: 25px;
