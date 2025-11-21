@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="105" height="96" viewBox="0 0 105 96">
+  <defs>
+    <polygon id="logo-a" points="6.416 .486 95.379 .13 62.271 65.013 56.48 54.984 79.13 9.649 1.717 9.403"/>
+    <linearGradient id="logo-b" x1="28.792%" x2="-39.424%" y1="34.484%" y2="98.484%">
+      <stop offset="0%" stop-color="#00BCFF"/>
+      <stop offset="100%" stop-color="#0463EA"/>
+    </linearGradient>
+    <polygon id="logo-d" points="6.416 .486 95.379 .13 62.271 65.013 56.48 54.984 79.13 9.649 1.717 9.403"/>
+    <linearGradient id="logo-e" x1="27.454%" x2="28.615%" y1="38.455%" y2="44.706%">
+      <stop offset="0%" stop-color="#00BCFF"/>
+      <stop offset="100%" stop-color="#0463EA"/>
+    </linearGradient>
+    <polygon id="logo-g" points="36.942 28.827 63.16 74.238 63.041 74.032 63.22 74.341 98.96 3.066 104.424 12.296 64.741 93.829 27.1 28.867"/>
+    <linearGradient id="logo-h" x1="30.251%" x2="-37.965%" y1="38.155%" y2="102.155%">
+      <stop offset="0%" stop-color="#00BCFF"/>
+      <stop offset="100%" stop-color="#0463EA"/>
+    </linearGradient>
+    <polygon id="logo-j" points="36.942 28.827 63.16 74.238 63.041 74.032 63.22 74.341 98.96 3.066 104.424 12.296 64.741 93.829 27.1 28.867"/>
+    <linearGradient id="logo-k" x1="29.09%" x2="30.145%" y1="41.677%" y2="47.263%">
+      <stop offset="0%" stop-color="#00BCFF"/>
+      <stop offset="100%" stop-color="#0463EA"/>
+    </linearGradient>
+    <polygon id="logo-m" points="16.915 25.226 16.856 25.124 57.705 95.876 47.294 95.343 .775 13.824 70.882 13.699 65.759 23.745 36.939 24.435 35.517 24.574 16.856 25.124"/>
+    <linearGradient id="logo-n" x1="27.262%" x2="-40.954%" y1="37.179%" y2="101.179%">
+      <stop offset="0%" stop-color="#00BCFF"/>
+      <stop offset="100%" stop-color="#0463EA"/>
+    </linearGradient>
+    <polygon id="logo-p" points="16.915 25.226 16.856 25.124 57.705 95.876 47.294 95.343 .775 13.824 70.882 13.699 65.759 23.745 36.939 24.435 35.517 24.574 16.856 25.124"/>
+    <linearGradient id="logo-q" x1="26.649%" x2="28.404%" y1="40.979%" y2="48.05%">
+      <stop offset="0%" stop-color="#00BCFF"/>
+      <stop offset="100%" stop-color="#0463EA"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="logo-c" fill="#fff">
+      <use xlink:href="#logo-a"/>
+    </mask>
+    <polygon fill="url(#logo-b)" points="-301 486 999 486 999 -314 -301 -314" mask="url(#logo-c)"/>
+    <mask id="logo-f" fill="#fff">
+      <use xlink:href="#logo-d"/>
+    </mask>
+    <polygon fill="url(#logo-e)" points="-301 486 999 486 999 -314 -301 -314" mask="url(#logo-f)"/>
+    <mask id="logo-i" fill="#fff">
+      <use xlink:href="#logo-g"/>
+    </mask>
+    <polygon fill="url(#logo-h)" points="-301 486 999 486 999 -314 -301 -314" mask="url(#logo-i)"/>
+    <mask id="logo-l" fill="#fff">
+      <use xlink:href="#logo-j"/>
+    </mask>
+    <polygon fill="url(#logo-k)" points="-301 486 999 486 999 -314 -301 -314" mask="url(#logo-l)"/>
+    <mask id="logo-o" fill="#fff">
+      <use xlink:href="#logo-m"/>
+    </mask>
+    <polygon fill="url(#logo-n)" points="-301 486 999 486 999 -314 -301 -314" mask="url(#logo-o)"/>
+    <mask id="logo-r" fill="#fff">
+      <use xlink:href="#logo-p"/>
+    </mask>
+    <polygon fill="url(#logo-q)" points="-301 486 999 486 999 -314 -301 -314" mask="url(#logo-r)"/>
+  </g>
+</svg>

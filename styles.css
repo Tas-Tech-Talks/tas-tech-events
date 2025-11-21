@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("http://127.0.0.1:8000/pexels-cookiecutter-1148820-2.png");
+    background-size:cover;
+}
+#sidebar {
+    width: 250px;
+    background-color: #f4f4f4;
+    padding: 10px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: -250px; /* Initially hidden */
+    transition: left 0.3s ease-in-out;
+}
+
+#sidebar.open {
+    left: 0;
+}
+
+/* #content {
+    margin-left: 300px;
+    margin-top: 25px;
+    padding: 20px;
+    transition: margin-left 0.3s ease-in-out;
+} */
+
+#content.sidebar-open {
+    margin-left: 50px; /* Adjust as needed */
+}
+.content {
+    text-align: center;
+    width: 100%;
+    color: #fff;
+}
+.container {
+    color: #fff;
+}
+#content-wide, #content-medium, #content-small {
+    margin-top: 25px;
+    /* position: absolute; */
+}
+#about {
+    margin-top: 25px;
+    color: #000;
+    background: #fff;
+    padding: 25px;
+    border-radius: 40px;
+    background-color: rgba(255, 255, 255, 0.85);
+    
+}
+#about img {
+    margin: 0 auto;
+     display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#about-img {
+    width: 50px;
+    height: 50px;
+}
+
+#communities {
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+.calendar-link {
+    border:solid 1px #777;
+}
+#content {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    
+    /* margin-top: 25px; */
+}
+
+/* Center the calendar content */
+#content .calendar-div {
+    margin: 0 auto;
+    display: block;
+    margin-top: 25px;
+}
+#calendar-about, #communities-about {
+    /* position: absolute; */
+    /* height: 100vh; */
+    width: 100%;
+    font-style: italic;
+    /* bottom: 25px; */
+} 
