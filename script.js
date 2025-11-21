@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function() {
 function renderCalendarLinks() {
     var sizes = [300, 600, 800];
     var size_id = ["small", "medium", "wide"];
-    var calendar_url = "https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=Australia%2FHobart&showPrint=0&title=Tas%20Tech%20Talks&src=NTVjYmIyNWFiZGM5MTc5ZjdhMDc1NDMyODc3ZGYwZjA5MmY1YzkxZjdjZTFkMGFkNDYzNDMzY2IzZjMwMDFmOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23e4c441";
+    var calendar_url = "https://calendar.google.com/calendar/embed?src=be61eafbbabe93ff842971abdb2b252bd2fd7b528d93e5fe71e4d1966770e019%40group.calendar.google.com&ctz=Australia%2FHobart";
     
     sizes.forEach(function(size, index) {
         var div = document.createElement('div');
