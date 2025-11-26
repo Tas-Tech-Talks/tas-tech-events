@@ -55,6 +55,12 @@ We provide platforms for sharing progress, getting feedback, and staying up-to-d
         "url":"https://startuptasmania.com/",
         "description": "Startup Tasmania is a group for Tasmanian entrepreneurs. We advocate for startups in Tasmania. ",
         "img": "startup_tas.jpg"
+    },
+    {
+        "name": "ACS Tasmnaina",
+        "url": "https://www.acs.org.au/branches/tasmania.html",
+        "description": "As of 2021 the Australian Computer Society has supported the Tasmanian ICT industry for 50 years. We have worked hard to foster a sense of community amongst ICT professionals. Our members hold a sense of collective responsibility for building the State’s technological expertise, improving our digital economy, and creating pathways for our professionals to be successful."
+ 
     }
     // Add more communities as needed
 ]
