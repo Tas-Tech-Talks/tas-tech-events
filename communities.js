@@ -17,7 +17,8 @@ const communities = [
         "description": "We enjoy playing games, talking about games, and watching others play together. \
 We provide opportunities for learning and collaboration, and encourage creative work from all skill levels and disciplines. \
 We run events that focus around networking, as well as the sharing of skills, experience, and perspectives. \
-We provide platforms for sharing progress, getting feedback, and staying up-to-date on industry news.",
+We provide platforms for sharing progress, getting feedback, and staying up-to-date on industry news.\
+Also see <b><a href='https://tasgamemakers.com/events/'>Events</a></b> for more information about our upcoming events.",
         "img" : "tasgmlogo.png"
     },
     {
@@ -59,10 +60,12 @@ We provide platforms for sharing progress, getting feedback, and staying up-to-d
     {
         "name": "ACS Tasmnaina",
         "url": "https://www.acs.org.au/branches/tasmania.html",
-        "description": "As of 2021 the Australian Computer Society has supported the Tasmanian ICT industry for 50 years. We have worked hard to foster a sense of community amongst ICT professionals. Our members hold a sense of collective responsibility for building the State’s technological expertise, improving our digital economy, and creating pathways for our professionals to be successful."
+        "description": "As of 2021 the Australian Computer Society has supported the Tasmanian ICT industry for 50 years. We have worked hard to foster a sense of community amongst ICT professionals. Our members hold a sense of collective responsibility for building the State’s technological expertise, improving our digital economy, and creating pathways for our professionals to be successful.",
+        "img": "acs-logo-90x100.png"
  
     }
     // Add more communities as needed
+    
 ]
 
 function renderCommunitiesList() {
@@ -78,7 +81,7 @@ function renderCommunitiesList() {
             </div>
         {{/each}}
     `;
-
+    Sqrl.defaultConfig.autoEscape = false;
     return Sqrl.render(template, {"communities" : communities});
 }
 

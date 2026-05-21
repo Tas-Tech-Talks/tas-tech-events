@@ -62,7 +62,7 @@ body {
     height: 50px;
 }
 
-#communities {
+#communities, #published-calendars {
     margin-top: 25px;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -70,6 +70,26 @@ body {
 }
 .calendar-link {
     border:solid 1px #777;
+}
+/* desktop */
+@media (min-width: 600px) {
+    .published-calendars {
+     width: 65%;
+    }
+}      
+
+.published-calendars {
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 15px;
+    border-radius: 10px;
+    color: #000;
+    text-align: center;
+    margin: 0 auto;
+   
+}
+#published-calendars {
+    margin: 0 auto;
+    text-align: center;
 }
 #content {
     width: 100%;

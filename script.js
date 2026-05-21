@@ -1,8 +1,39 @@
+const calendars = [
+    {
+        "name": "Tas Game Makers",
+        "calendar_url": "https://tasgamemakers.com/events/"
+    },
+    {
+        "name": "Hobart Hackerspace",
+        "calendar_url": "https://hobarthackerspace.org.au/events/"
+    }
+]
+
+function renderCalendars() {
+    var template = `
+        {{@each(it.calendars) => val, index}}
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">{{val.name}}</h5>
+                    <a href="{{val.calendar_url}}" class="btn btn-primary" target="_blank">View Calendar</a>
+                </div>
+            </div>
+        {{/each}}
+    `;
+    Sqrl.defaultConfig.autoEscape = false;
+    return Sqrl.render(template, {"calendars" : calendars});
+    console.log(calendars);
+}
+
 document.addEventListener('DOMContentLoaded', function() {
     const sidebar = document.getElementById('sidebar');
     const contentWide = document.getElementById('content-wide');
     const contentMedium = document.getElementById('content-medium');
     const contentSmall = document.getElementById('content-small');
+
+    console.log("DOM fully loaded and parsed");
+
+    document.getElementById("published-calendars").innerHTML = renderCalendars();
 
     function toggleContent() {
         console.log(window.outerWidth)
@@ -26,9 +57,9 @@ document.addEventListener('DOMContentLoaded', function() {
             contentSmall.style.display = 'none';
         }
     }
-
     window.addEventListener('resize', toggleContent);
     toggleContent(); // Initial check
+    
 });
 
 function renderCalendarLinks() {
@@ -52,4 +83,7 @@ function renderCalendarLinks() {
     });
 }
 
+
+
 renderCalendarLinks();
+
