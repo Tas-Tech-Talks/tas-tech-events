@@ -58,9 +58,6 @@ document.addEventListener('DOMContentLoaded', function() {
     console.log("DOM fully loaded and parsed");
 
     document.getElementById("published-calendars").innerHTML = renderCalendars();
-    if (document.getElementById("event-pages")) {
-        document.getElementById("event-pages").innerHTML = renderCalendars();
-    }
 
     function toggleContent() {
         console.log(window.outerWidth)
