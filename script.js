@@ -6,6 +6,22 @@ const calendars = [
     {
         "name": "Hobart Hackerspace",
         "calendar_url": "https://hobarthackerspace.org.au/events/"
+    },
+    {
+        "name": "Hobart Makers",
+        "calendar_url": "https://hobartmakers.com/events/"
+    },
+    {
+        "name": "TasICT",
+        "calendar_url": "https://www.tasict.com.au/events/"
+    },
+    {
+        "name": "REAST",
+        "calendar_url": "https://www.reast.asn.au/news-events/upcoming-events/"
+    },
+    {
+        "name": "Google Developers Group Hobart",
+        "calendar_url": "https://gdg.community.dev/gdg-hobart/"
     }
 ]
 
