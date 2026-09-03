@@ -22,6 +22,14 @@ const calendars = [
     {
         "name": "Google Developers Group Hobart",
         "calendar_url": "https://gdg.community.dev/gdg-hobart/"
+    },
+    {
+        "name": "SecTalks",
+        "calendar_url": "https://www.meetup.com/sectalks-hobart/"
+    },
+    {
+        "name": "ACS",
+        "calendar_url": "https://www.acs.org.au/cpd-education/event-listing.html"
     }
 ]
 
@@ -50,6 +58,9 @@ document.addEventListener('DOMContentLoaded', function() {
     console.log("DOM fully loaded and parsed");
 
     document.getElementById("published-calendars").innerHTML = renderCalendars();
+    if (document.getElementById("event-pages")) {
+        document.getElementById("event-pages").innerHTML = renderCalendars();
+    }
 
     function toggleContent() {
         console.log(window.outerWidth)
