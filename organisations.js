@@ -1,4 +1,4 @@
-const communities = [
+const organisations = [
     {
         "name": "Hobart Hackerspace",
         "url" : "https://hobarthackerspace.org.au",
@@ -64,13 +64,13 @@ Also see <b><a href='https://tasgamemakers.com/events/'>Events</a></b> for more 
         "img": "acs-logo-90x100.png"
  
     }
-    // Add more communities as needed
+    // Add more organisations as needed
     
 ]
 
-function renderCommunitiesList() {
+function renderOrganisationsList() {
     var template = `
-        {{@each(it.communities) => val, index}}
+        {{@each(it.organisations) => val, index}}
             <div class="card">
                 <img src="{{val.img}}" class="card-img-top" alt="{{val.name}}">
                 <div class="card-body">
@@ -82,9 +82,9 @@ function renderCommunitiesList() {
         {{/each}}
     `;
     Sqrl.defaultConfig.autoEscape = false;
-    return Sqrl.render(template, {"communities" : communities});
+    return Sqrl.render(template, {"organisations" : organisations});
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-    document.getElementById("communities").innerHTML = renderCommunitiesList();
+    document.getElementById("organisations").innerHTML = renderOrganisationsList();
 });

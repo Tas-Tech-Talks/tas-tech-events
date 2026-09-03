@@ -62,7 +62,7 @@ body {
     height: 50px;
 }
 
-#communities, #published-calendars {
+#organisations, #published-calendars {
     margin-top: 25px;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -105,7 +105,7 @@ body {
     display: block;
     margin-top: 25px;
 }
-#calendar-about, #communities-about {
+#calendar-about, #organisations-about {
     /* position: absolute; */
     /* height: 100vh; */
     width: 100%;
